@@ -27,7 +27,7 @@ console.log('应用的 appid 为：' + appid);
 // 监听设备网络状态变化事件
 plus.globalEvent.addEventListener('netchange', function(){});
 // #endif
-```
+```12311
 
 同理，在 `uni-app` 中使用 Native.js 时，一些 Native.js 中对于原生事件的监听同样需要按照上面的方法去实现。
 
